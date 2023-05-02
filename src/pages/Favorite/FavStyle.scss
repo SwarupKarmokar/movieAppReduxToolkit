@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+
+@media screen and (width < 400px) {
+    img {
+        width: 130px;
+        height: 150px;
+    }
+}
