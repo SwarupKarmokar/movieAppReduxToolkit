@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div>MovieApp</div>
-            <p>@copyrights reseve</p>
+            <p>@copyrights belongs to IamSwarup</p>
         </div>
     )
 }
